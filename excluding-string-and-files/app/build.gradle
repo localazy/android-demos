@@ -7,7 +7,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.localazy.android.demos.excludingstringsandfiles"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -33,11 +33,14 @@ dependencies {
 apply plugin: 'com.localazy.gradle'
 
 localazy {
-    readKey "read-key"
-    writeKey "write-key"
+
+    // Properties localazyReadKey and localazyWriteKey are defined in my gradle.properties
+    readKey localazyReadKey
+    writeKey localazyWriteKey
 
     upload {
 
+        // Switch to true to ignore analyzer and error from `ad_id` string
         ignorePrivateStrings false
 
         strings {
@@ -49,4 +52,5 @@ localazy {
         }
 
     }
+
 }
