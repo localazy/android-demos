@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Excluding strings and files</string>
+
+    <!-- This strings is excluded using standard Android way -->
+    <string name="excluded_string_1" translatable="false">Excluded string 1</string>
+
+    <!-- This strings is excluded using Localazy strings exclusion -->
+    <string name="excluded_string_2">Excluded string 2</string>
+
+    <!-- This string will stop uploading because it looks like something you should keep private -->
+    <string name="ad_id">ca-app-pub-0000000000000000/0000000000</string>
+
+</resources>

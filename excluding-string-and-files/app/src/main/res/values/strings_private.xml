@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- All strings in this file are excluded. -->
+    <string name="excluded_string_3">Excluded string 3</string>
+
+</resources>
