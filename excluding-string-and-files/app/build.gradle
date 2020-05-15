@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.localazy.android.demos.excludingstringsandfiles"
         minSdkVersion 21
@@ -20,13 +20,8 @@ android {
     }
 }
 
-repositories {
-    maven { url "https://maven.localazy.com/repository/release/" }
-}
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.localazy.android:plain:1.0.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
