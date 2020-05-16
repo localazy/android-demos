@@ -38,8 +38,5 @@ dependencies {
 
 apply plugin: 'com.localazy.gradle'
 
-localazy {
-    // My readKey and writeKey are defined in local.properties
-    // readKey "..."
-    // writeKey "..."
-}
+// My readKey and writeKey are defined in local.properties,
+// so I don't need the localazy {} block at all.
