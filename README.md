@@ -4,6 +4,12 @@ Localazy is a translation platform built for mobile app developers that can tran
 
 This repository contains several projects demonstrating how to use Localazy in certain situations. 
 
+All projects are written in Kotlin, but it works exactly the same way for Java-based Android apps. 
+
+Localazy Gradle plugin needs `readKey` and `writeKey`. They are not contained in projects as we store them in `local.properties`. It's described here: [Defining keys in local.properties](https://localazy.com/docs/android/localazy-gradle-plugin#defining-keys-in-localproperties)
+
+To try the demo, you have to clone it from this repository and create new app on Localazy site to obtain your own `readKey` and `writeKey`. 
+
 ---
 
 ### excluding-string-and-files
@@ -13,3 +19,8 @@ The project demonstrates different ways how you can exclude strings and files fr
 Read more about excluding strings: [Exclude strings and files from upload](https://localazy.com/docs/android/exclude-strings-and-files-from-upload)
 
 ---
+
+## library-and-flavors
+
+This project demonstrates how you can use Localazy to translate your app with different flavors together with library module.
+
