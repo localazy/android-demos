@@ -30,7 +30,7 @@ This project demonstrates how to include a library for translating. It's simple 
 
 This project demonstrates how to use Localazy with more libraries that contain strings with the same keys. It's not a problem with Localazy at all ;-).
 
---
+---
 
 ## [library-and-flavors](https://github.com/localazy/android-demos/tree/master/library-and-flavors)
 
