@@ -1,6 +1,8 @@
-# android-demos
+# Localazy Android demos
 
-Demo projects demonstrating how to use Localazy in certain situations. 
+Localazy is a translation platform built for mobile app developers that can translate your app for free to up to 80 languages with shared translations. Learn more about Localazy: [https://localazy.com](https://localazy.com)
+
+This repository contains several projects demonstrating how to use Localazy in certain situations. 
 
 ---
 
