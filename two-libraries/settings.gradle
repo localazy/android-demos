@@ -1,0 +1,4 @@
+rootProject.name='Two Libraries'
+include ':app'
+include ':library1'
+include ':library2'

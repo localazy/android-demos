@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Two Libraries</string>
+    <string name="button_open_dialog_1">Open dialog 1</string>
+    <string name="button_open_dialog_2">Open dialog 2</string>
+    <string name="dialog_title">App: Dialog title</string>
+</resources>
