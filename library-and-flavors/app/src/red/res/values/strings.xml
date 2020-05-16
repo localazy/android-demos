@@ -1,0 +1,4 @@
+<resources>
+    <string name="dialog_title">Red: Dialog title</string>
+    <string name="dialog_message">Red: Dialog message</string>
+</resources>

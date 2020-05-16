@@ -1,0 +1,3 @@
+rootProject.name='Simple Library Demo'
+include ':app'
+include ':dialoglibrary'
