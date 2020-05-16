@@ -1,3 +1,4 @@
 <resources>
+    <string name="flavor_name">Green</string>
     <string name="dialog_title">Green: Dialog title</string>
 </resources>

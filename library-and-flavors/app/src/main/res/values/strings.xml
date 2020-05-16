@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple Library Demo</string>
+    <string name="app_name">Library &amp; Flavors</string>
     <string name="button_open_dialog">Open dialog</string>
     <string name="dialog_title">App: Dialog title</string>
 </resources>

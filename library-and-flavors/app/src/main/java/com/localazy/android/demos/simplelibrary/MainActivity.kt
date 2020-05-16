@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
             DialogCreator(this@MainActivity).testDialog()
         }
 
+        flavor_type.setText(R.string.flavor_name)
+
     }
 
 }
