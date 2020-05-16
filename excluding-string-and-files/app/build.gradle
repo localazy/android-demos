@@ -29,9 +29,9 @@ apply plugin: 'com.localazy.gradle'
 
 localazy {
 
-    // Properties localazyReadKey and localazyWriteKey are defined in my gradle.properties
-    readKey localazyReadKey
-    writeKey localazyWriteKey
+    // My readKey and writeKey are defined in local.properties
+    // readKey "..."
+    // writeKey "..."
 
     upload {
 
