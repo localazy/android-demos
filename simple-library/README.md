@@ -25,13 +25,13 @@ localazy {
 
 ---
 
-3. At the end of the library's `build.gradle`, add `localazy` plugin the same way as for app' module. Do not forget to provide the whole configuration as it's not shared with the app's module. 
+3. At the end of the library's `build.gradle`, add `localazy` plugin the same way as for app's module. You should configure the library too as the configuration is not shared between modules by default or simply copy the configuration.  
 
 ```groovy
 apply plugin: 'com.localazy.gradle'
 
 localazy {
-    // ... your configuration ...
+    copyFrom project(":app")
 }
 ```
 
