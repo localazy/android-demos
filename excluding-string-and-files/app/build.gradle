@@ -35,7 +35,12 @@ localazy {
 
     upload {
 
-        // Switch to true to ignore analyzer and error from `ad_id` string
+        // If the strict mode is enabled, the upload is stopped with error.
+        // If the strict mode is disabled, the upload is not stopped but private strings are excluded
+        // and the list of strings is printed to localazy.log file.
+        strictMode true
+
+        // Switch to true to ignore the analyzer and the error from `ad_id` string.
         ignorePrivateStrings false
 
         strings {
